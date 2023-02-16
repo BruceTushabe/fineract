@@ -44,7 +44,7 @@ Recently (after release 1.7.0) we introduced improved date time handling in Fine
 serverTimezone=UTC&useLegacyDatetimeCode=false&sessionVariables=time_zone=‘-00:00’
 ```
 
-__DO__: If you do use MySQL as your Fineract databsae then the following configuration is highly recommended:
+__DO__: If you do use MySQL as your Fineract database then the following configuration is highly recommended:
 
 * Run the application in UTC (the default command line in our Docker image has the necessary parameters already set)
 * Run the MySQL database server in UTC (if you use managed services like AWS RDS then this should be the default anyway, but it would be good to double-check)
